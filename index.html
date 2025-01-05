@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Larsson</title>
+    <link rel="stylesheet" href="css/pico.min.css">
+    <link rel="stylesheet" href="css/pico.colors.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-size: 300% 300%;
+            background-image: linear-gradient(-45deg,
+                    rgb(255, 255, 255) 0%,
+                    rgb(255, 177, 177) 25%,
+                    rgb(255, 251, 193) 51%,
+                    rgb(196, 248, 255) 100%);
+            animation: AnimateBG 20s ease infinite;
+        }
+
+        :root {
+            --pico-font-family: "Raleway", serif;
+        }
+
+        .raleway {
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+
+        .rainbow {
+            background-size: 300% 300%;
+            background-image: linear-gradient(-45deg,
+                    rgb(255, 255, 255) 0%,
+                    rgb(255, 177, 177) 25%,
+                    rgb(255, 251, 193) 51%,
+                    rgb(196, 248, 255) 100%);
+            animation: AnimateBG 20s ease infinite reverse;
+        }
+
+        @keyframes AnimateBG {
+            0% {
+                background-position: 0% 50%
+            }
+
+            50% {
+                background-position: 100% 50%
+            }
+
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        .center-div {
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+        }
+
+        .game-art {
+            background-size: cover;
+            background-position: center;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+
+        .youtube-video {
+            aspect-ratio: 16 / 9;
+            width: 100%;
+        }
+
+        .shadow {
+            filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.5));
+        }
+    </style>
+</head>
+
+<body class="raleway">
+    <main class="container">
+        <article class="rainbow" style="border-radius: 0.5rem; margin-top: 3rem;">
+            <div class="center-div" style="padding-top: 1rem;">
+                <h1 class="pico-color-sand-750" style="margin-left: 0rem;">Benjamin Larsson</h1>
+                <div class="center-div">
+                    <img src="assets/portrait.webp" alt="" style="border-radius: .2rem; max-height: 20rem;">
+                </div>
+                <div class="center-div">
+                    <a href="https://www.linkedin.com/in/benjaminlarsson/" target="_blank" rel="noopener noreferrer"
+                        style="background-color: white; padding: .75rem; border-radius: .5rem;">
+                        <img src="assets/LI-Logo.png" alt="" style="width: 7rem;">
+                    </a>
+                </div>
+                </img>
+            </div>
+        </article>
+
+        <div class="center-div" style="margin-top: 4rem;">
+            <h1 class="pico-color-sand-750 shadow" style="text-align: center;">Highlights</h1>
+        </div>
+        <article class="game-art"
+            style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, .8)), url(assets/hoi4got_library.webp);">
+            <details>
+                <summary style="color: white;">
+                    <div class="center-div">
+                        <img src="assets/hoi4got_logo.webp" alt="" style="user-select: none; max-height: 15rem;">
+                    </div>
+                </summary>
+                <div style="border-radius: 0.5rem; background-color: rgba(0, 0, 0, 0.5); padding: 1rem;"
+                    class="center-div">
+                    <div class="center-div">
+                        <section>
+                            <iframe width="560" height="315" class="youtube-video"
+                                src="https://www.youtube-nocookie.com/embed/X35yPqws-vk?si=GfyudBDD-mXzGlIK"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </section>
+                        <section>
+                            <iframe class="youtube-video" src="https://store.steampowered.com/widget/3152780/"
+                                frameborder="0" width="646" height="190"></iframe>
+                        </section>
+                    </div>
+                </div>
+            </details>
+        </article>
+        <article class="game-art"
+            style="background-image: url(assets/bramble_library_hero.webp); background-size: cover; padding: 1rem; border-radius: 0.5rem; padding-top: 0rem;">
+            <details>
+                <summary style="color: white;">
+                    <div class="center-div">
+                        <img src="assets/bramble_logo_big.webp" alt="" style="user-select: none; max-height: 15rem;">
+                    </div>
+                </summary>
+                <div style="border-radius: 0.5rem; background-color: rgba(0, 0, 0, 0.5); padding: 1rem;"
+                    class="center-div">
+                    <div class="center-div">
+                        <section>
+                            <iframe width="560" height="315" class="youtube-video"
+                                src="https://www.youtube-nocookie.com/embed/Ym3CGQrQRpg?si=H6yknb-0l8vtJLr3"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </section>
+                        <section>
+                            <iframe class="youtube-video" src="https://store.steampowered.com/widget/1623940/"
+                                frameborder="0" width="646" height="190"></iframe>
+                        </section>
+                    </div>
+                </div>
+            </details>
+    </main>
+</body>
+
+</html>
